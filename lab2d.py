@@ -5,7 +5,11 @@
 # Date: Learn how to use command line arguments.
 # Purpose: .
 # Usage: ./lab2d.py
-
+import sys
+print(sys.version)
+print(sys.platform)
+print(sys.argv)
+print(len(sys.argv))
 
 # TO DO 1: copy the required lines from README.md to print version, platform, argv and the length of argv.
 # run the script in the terminal using command: python ./lab2d.py
