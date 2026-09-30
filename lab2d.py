@@ -14,11 +14,6 @@
 # run the script using the following command: python lab2d.py maija Maija
 import sys
 print(sys.version) # prints the version of the python currently in use.
-print(sys.platform) # prints the name of the operating system.
-print(sys.argv) # prints the list of all arguments given at the command line when running our py
-print(len(sys.argv)) # prints the number of all arguments
-
-print(sys.version) # prints the version of the python currently in use.
 print(sys.platform) # prints the name of operating system.
 print(sys.argv) # prints the list of all arguments given at the command line when running our python script from terminal.
 print(len(sys.argv)) # tells us the number of command line arguments the user provides from terminal.
