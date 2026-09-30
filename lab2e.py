@@ -11,8 +11,7 @@ import sys
 num_args= len(sys.argv)-1
 if num_args<2:
     print("This script requires exactly two arguments. No arguments were provided!")
+elif num_args==2:
+    print(f" Hello user, good job, your provided two arguments!!")
 else:
-    if num_args==2:
-        print(f" Hello user, good job, your provided two arguments!!")
-    else:
-        print(f"This script requires exactly two arguments. You provided {num_args} arguments!")
+    print(f"This script requires exactly two arguments. You provided {num_args} arguments!")
