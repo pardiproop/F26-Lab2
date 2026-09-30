@@ -25,4 +25,4 @@ elif status=="Married":
         tax=1600+(income-16000)*0.15
     else:
         tax=8800+(income-64000)*0.25
-print("The Tax is: ",tax)
+print("The Tax is:",tax)
