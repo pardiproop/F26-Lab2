@@ -7,7 +7,6 @@
 # Usage: ./lab2a.py
 
 # TO DO 1: Follow the instructions given in README.md file
-
-
-
+x=input("Enter a Digit/Number: ")
+print(type(x))
 
