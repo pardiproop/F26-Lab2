@@ -11,7 +11,7 @@ import sys
 num_args= len(sys.argv)-1
 if num_args<2:
     print("The script requires at least 2 arguments.")
-elif num_args==3:
+elif num_args>=3:
     name=sys.argv[1]
     age=sys.argv[2]
     print(f"Hi {name}, you are {age} years old and the script received {num_args} arguments.")
