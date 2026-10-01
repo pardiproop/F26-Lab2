@@ -1,8 +1,8 @@
 # Add comments before you do anything else.
 
 #!/usr/bin/env python3
-# Author:
-# Date:
+# Author: Pardip Rooprai
+# Date: 30/9/2026
 # Purpose: use for loop.
 # Usage: ./lab2k.py
 
@@ -11,7 +11,18 @@
 fruits = ["apple", "banana", "cherry", "date"]
 
 # Use a for loop to iterate over the list
+for fruit in fruits:
+    print(fruit)
 #for fruit in fruits:
 #    print(fruit)
 
 #for loop is commonly used with range functions. Here's another example using the range function to print numbers from 0  to 5.
+for i in range(5):
+    print(i)
+
+
+total=0
+for num in range(1,101):
+    if num%2==0:
+        total=total+num
+print(total)
